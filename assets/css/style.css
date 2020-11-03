@@ -1,0 +1,81 @@
+* {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body {
+    font-family:"Roboto", sans-serif;
+}
+
+
+/*........................................Navigation bar*/
+
+.nav-container {
+    position:fixed;
+}
+
+.nav-style {
+    font-family:"Poppins", sans-serif;
+    letter-spacing:2px;
+}
+
+nav a {
+     color:#c93e4c;
+}
+
+nav li {
+    margin-right:10px;
+}
+
+.title {
+    font-weight:400;
+    font-size:32px;
+}
+
+.menu {
+    text-transform: uppercase;
+}
+
+/*........................................Buttons*/
+
+.btn--cta {
+    text-transform: uppercase;
+    font-weight:bold;
+    border-radius:23px;
+    width: 120px;
+}
+
+.btn--red {
+    color:white;
+    background-color:#c93e4c;
+    border-color:#c93e4c;
+}
+
+.btn--red:hover,
+.btn--red:focus,
+.btn--red:active {
+    color:#c93e4c;
+    background-color:white;
+    border-color:#c93e4c;
+    box-shadow:none;
+}
+
+nav a:hover {
+    color:#c93e4c;
+    border-bottom: 1px solid #c93e4c;
+}
+
+nav a.title:hover {
+    border: none;
+    text-decoration:none;
+}
+
+.nav-link {
+    padding:4px;
+}
+
+.active a {
+    border-bottom: 1px solid #c93e4c;
+}
+
