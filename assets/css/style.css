@@ -139,6 +139,10 @@ nav a.title:hover {
     color:#c93e4c;
 }
 
+.thead-theme {
+    background-color:#c93e4c;
+}
+
 /*........................................headers*/
 
 .page-headers {
@@ -151,13 +155,12 @@ nav a.title:hover {
 }
 
 .social-header {
-    font-size:36px;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top:25px;
-    margin-bottom:25px;
-    padding:0 15px 0 15px;
     color:#c93e4c;
+}
+
+.table-header {
+     color:#c93e4c;
+     font-size:36px;
 }
 
 
@@ -262,6 +265,13 @@ footer {
     }
 }
 
+@media screen and (max-width:415px) {
+    tr .btn--cta {
+    width:100px;
+    }
+}
+
+
 .footer-social-item:not(:last-child) {
     margin-right:8px;
 }
@@ -271,6 +281,34 @@ footer {
     padding:0 45px 0 45px;
 }
 
+.content-container {
+    margin-bottom:50px;
+}
+
+.block-divider-pink {
+    background-color:#c4302b;
+}
+.table td {
+    vertical-align: middle;
+}
+
+#photo {
+    column-count:4;
+    column-gap:0px;
+    margin-top:76px;
+}
+
+#photo img {
+    width:100%;
+}
 
 
+@media screen and (max-width:770px) {
+    #photo {
+    column-count:3}
+}
 
+@media screen and (max-width:415px) {
+    #photo {
+    column-count:2}
+}
