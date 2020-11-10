@@ -312,3 +312,18 @@ footer {
     #photo {
     column-count:2}
 }
+
+.modal-body p {
+    padding:28px 15px 0 15px;
+}
+
+.modal-h-color {
+    background-color:#c93e4c;
+    color:#fafafa;
+}
+
+.close {
+    color:#ffffff;
+    opacity:1;
+    right:20px;
+}
