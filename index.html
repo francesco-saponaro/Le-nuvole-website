@@ -11,8 +11,10 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
 </head>
 <body>
+    <!--embedding tag-->
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v8.0" nonce="T03O9FxD"></script>
+    <!--/embedding tag-->
     <!--navigation bar-->
     <header>
         <div class="container-fluid nav-container">
@@ -20,7 +22,7 @@
                 <a href="index.html" class="title">Le Nuvole</a>
     <!--Javascript command-->
                 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
                 </button>
     <!--/javascript command-->
     <!--Javascript target-->
@@ -34,6 +36,9 @@
                         </li>
                         <li class="nav-item ml-2">
                             <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item ml-2 d-sm-none">
+                            <a class="nav-link" href="" data-toggle="modal" data-target="#signUpModal">Book us!</a>
                         </li>
                     </ul>
                 </div>
@@ -53,7 +58,7 @@
             <div class="row">
                 <div class="col d-md-none">
                     <div class="text-center image-button-position">
-                        <button class="btn btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">
+                        <button class="btn btn--cta btn--cta--img btn--red" data-toggle="modal" data-target="#signUpModal">
                             Book us!
                         </button>
                     </div>
@@ -66,16 +71,17 @@
     <!--biography-->
         <div class="row section-margins">
             <div class="col-md-6 lenuvole-color-theme">
-                <h2 class="page-headers about-header">A multicultural band based in Brisbane</h2>
-                    <p class="about-bio">What do you get when a rogue gypsy jazz guitarist and a classically-trained cellist fall in love, then make music? The answer, of course, lies in the alluring and unforgettable tunes of Le Nuvole. Bringing Italian, Brazilian and Irish heritage together, the music of Mircha Mangiacotti and Emma Hales journeys between nostalgia, charm and achingly beautiful repertoire.
+                <h2 class="page-headers">A multicultural band based in Brisbane</h2>
+                <h4 class="about-subheader">Performing in bars, weddings and parties</h4>
+                    <p class="about-bio">What do you get when a rogue gypsy jazz guitarist and a classically-trained cellist fall in love, then make music? The answer, of course, lies in the alluring and unforgettable tunes of Le Nuvole. Bringing <strong>Italian, Brazilian and Irish heritage</strong> together, the music of Mircha Mangiacotti and Emma Hales journeys between nostalgia, charm and achingly beautiful repertoire.
 
-                    With a style and class all their own, the duo works together writing original music, arranging wedding favourites, traditional tunes and re-working timeless classics. Guitarist Mircha effortlessly switches between Bossa, folk and jazz styles while cellist Emma explores the range and versatility of her cello. Their ability to play a variety of upbeat, sublime and favourite songs with dynamic instrumentation will leave you wondering why you haven’t heard them before.</p>
+                    With a style and class of their own, the duo works together writing original music, arranging <strong>wedding favourites, traditional tunes and re-working timeless classics</strong>. Guitarist Mircha effortlessly switches between Bossa, folk and jazz styles while cellist Emma explores the range and versatility of her cello. Their ability to play a variety of upbeat, sublime and favourite songs with dynamic instrumentation will leave you wondering why you haven’t heard them before.</p>
             </div>
     <!--/biography-->
     <!--video-->
-            <div class="col-md-6 lenuvole-color-theme-reverse">
+            <div class="col-md-6 video-responsive-main lenuvole-color-theme-reverse">
                 <h2 class="page-headers">Our latest performance</h2>
-                <center><div class="fb-video" data-href="https://www.facebook.com/106837394461048/videos/3211519388971131/" data-show-text="false" data-width="500"><blockquote cite="https://developers.facebook.com/lenuvolemusic/videos/3211519388971131/" class="fb-xfbml-parse-ignore"><a href="https://developers.facebook.com/lenuvolemusic/videos/3211519388971131/">Senhorina (Guinga)</a><p>Clip #4 from our CYKAS series is &#039;Senhorina&#039;, by Brazilian composer Guinga.</p>Posted by <a href="https://www.facebook.com/lenuvolemusic/">Le Nuvole</a> on Monday, 26 October 2020</blockquote></div></center>
+                <div class="fb-video" data-href="https://www.facebook.com/106837394461048/videos/3211519388971131/" data-show-text="false" data-width="auto"><blockquote cite="https://developers.facebook.com/lenuvolemusic/videos/3211519388971131/" class="fb-xfbml-parse-ignore"><a href="https://developers.facebook.com/lenuvolemusic/videos/3211519388971131/">Senhorina (Guinga)</a><p>Clip #4 from our CYKAS series is &#039;Senhorina&#039;, by Brazilian composer Guinga.</p>Posted by <a href="https://www.facebook.com/lenuvolemusic/">Le Nuvole</a> on Monday, 26 October 2020</blockquote></div>
                 <p class="text-center main-video-bio">Le Nuvole perform "Senhorina" by Guinga.<br>Live at Can You Keep A Secret? on the 26th August
                 </p>
             </div>
@@ -89,26 +95,29 @@
                     <li class="list-inline-item facebook-logo">
                         <a class="hvr-pop" href="https://www.facebook.com/" target="_blank">
                             <i class="fab fa-facebook-f "></i>
+                            <span class="sr-only">Facebook</span>
                         </a>
                     </li>
                     <li class="list-inline-item twitter-logo">
                         <a class="hvr-pop" href="https://twitter.com/?lang=en" target="_blank">
                             <i class="fab fa-twitter"></i>
+                            <span class="sr-only">Twitter</span>
                         </a>
                     </li>
                     <li class="list-inline-item instagram-logo">
                         <a class="hvr-pop" href="https://www.instagram.com/" target="_blank">
                             <i class="fab fa-instagram"></i>
+                            <span class="sr-only">Instagram</span>
                         </a>
                     </li>
                      <li class="list-inline-item youtube-logo">
                         <a  class="hvr-pop" href="https://www.youtube.com/" target="_blank">
                             <i class="fab fa-youtube"></i>
+                            <span class="sr-only">Youtube</span>
                         </a>
                     </li>
                 </ul>
             </div>
-    <!--/social media-->
         </div>
     </section>
     <hr class="block-divider-pink">
@@ -126,25 +135,25 @@
                                 <td class="w-25">Sat 28 Nov</td>
                                 <td class="w-25">19:45</td>
                                 <td class="w-25">Queen St. Mall (Brisbane)</td>
-                                <td class="text-center w-25"><a href="#" target="_blank" class="btn btn--cta btn--red">Tickets</a></td>
+                                <td class="text-center w-25"><a href="https://www.facebook.com/pg/lenuvolemusic/events/" target="_blank" class="btn btn--cta btn--red">Tickets</a></td>
                         </tr>
                         <tr>
                                 <td class="w-25">Sun 15 Nov</td>
                                 <td class="w-25">20:00</td>
                                 <td class="w-25">CYKAS (Brisbane)</td>
-                                <td class="text-center w-25"><a href="#" target="_blank" class="btn btn--cta btn--red">Tickets</a></td>
+                                <td class="text-center w-25"><a href="https://www.facebook.com/pg/lenuvolemusic/events/" target="_blank" class="btn btn--cta btn--red">Tickets</a></td>
                         </tr>
                         <tr>
                                 <td class="w-25">Sat 07 Nov</td>
                                 <td class="w-25">20:00</td>
                                 <td class="w-25">CYKAS (Brisbane)</td>
-                                <td class="text-center w-25"><a href="#" target="_blank" class="btn btn--cta btn--red">Tickets</a></td>
+                                <td class="text-center w-25"><a href="https://www.facebook.com/pg/lenuvolemusic/events/" target="_blank" class="btn btn--cta btn--red">Tickets</a></td>
                         </tr>
                         <tr>
                                 <td class="w-25">Sun 01 Nov</td>
                                 <td class="w-25">20:00</td>
                                 <td class="w-25">CYKAS (Brisbane)</td>
-                                <td class="text-center w-25"><a href="#" target="_blank" class="btn btn--cta btn--red">Tickets</a></td>
+                                <td class="text-center w-25"><a href="https://www.facebook.com/pg/lenuvolemusic/events/" target="_blank" class="btn btn--cta btn--red">Tickets</a></td>
                         </tr>
                     </tbody>
                 </table>
@@ -159,21 +168,25 @@
                     <li class="list-inline-item footer-social-item">
                         <a href="https://www.facebook.com/" target="_blank">
                             <i class="fab fa-facebook-f"></i>
+                            <span class="sr-only">Facebook</span>
                         </a>
                     </li>
                     <li class="list-inline-item footer-social-item">
                         <a href="https://twitter.com/?lang=en" target="_blank">
                             <i class="fab fa-twitter"></i>
+                            <span class="sr-only">Twitter</span>
                         </a>
                     </li>
                     <li class="list-inline-item footer-social-item">
                         <a href="https://www.instagram.com/" target="_blank">
                             <i class="fab fa-instagram"></i>
+                            <span class="sr-only">Instagram</span>
                         </a>
                     </li>
                      <li class="list-inline-item footer-social-item">
                         <a href="https://www.youtube.com/" target="_blank">
                             <i class="fab fa-youtube"></i>
+                            <span class="sr-only">Youtube</span>
                         </a>
                     </li>
                 </ul>
@@ -200,7 +213,7 @@
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-md-6">
-                            <form>
+                            <form class="form-margin">
                                 <div class="form-group">
                                     <label for="exampleInputName1">Name</label>
                                     <input type="text" class="form-control" id="exampleInputName1"/>
@@ -220,6 +233,9 @@
                             <p>Le Nuvole are able to arrange your wedding, party or event music requests, including everything from ceremony repertoire, reception performances and background vibe. 
                             <br>
                             As both members have been working in the music industry for over fifteen years, the duo is organised and professional, with a wealth of experience behind them. They love performing and pride themselves in being friendly, fun and easy going, while always maintaining the highest level of musicality. 
+                            <br>
+                            <br>
+                            <small class="contact"><a href="mailto:mircha12@gmail.com">mircha12@gmail.com</a> | <a href="tel:+611410064510">+611410064510</a></small>
                             </p>
                         </div>
                     </div>
