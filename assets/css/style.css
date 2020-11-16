@@ -464,6 +464,12 @@ footer {
         }
     }
 
+@media screen and (min-width:1670px) {
+    .about-bio {
+        font-size: 20px;
+    }
+ }
+
 /*........................................Gallery*/
 
 
@@ -561,6 +567,10 @@ footer {
 
 .audio-link-display:hover {
     color:#c93e4c;
+}
+
+audio {
+    width:250px;
 }
 
 
