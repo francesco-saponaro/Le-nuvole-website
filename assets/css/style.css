@@ -514,12 +514,18 @@ footer {
 
 @media screen and (max-width:770px) {
     #photo {
-    column-count:3}
+        column-count:3}
 }
 
 @media screen and (max-width:415px) {
     #photo {
-    column-count:2}
+        column-count:2}
+}
+
+@media screen and (max-width:330px) {
+    #photo {
+        margin-top:60.667px;
+    }
 }
 
 /*........................................modal form*/
