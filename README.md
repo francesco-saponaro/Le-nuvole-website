@@ -45,6 +45,14 @@ Due to their style of music and their repertoire, this website is meant to attra
     * The project uses Hover.css, a collection of CSS3 powered hover effects
 
 ## Testing
+### HTML validator
+* The validator displayed the "section lacks heading" warning in the "Home" and "Media" page. 
+Added an h2 in both. 
+* All 3 HTML pages have successfully passed the validator
+### CSS validator
+* CSS diplayed the "-webkit-background-size, -moz-background-size and -0-background-size is an unknown vendor extension" warning on my "hero-image", I have removed the properties
+* CSS has successfully passed the validator
+### Manual testing
 1. Navigation bar
     1. When I click on the navigation bar title I am redirected to the home page
     2. When I click on the "home" navigation bar link I am redirected to the home page
@@ -99,8 +107,6 @@ Due to their style of music and their repertoire, this website is meant to attra
 ![Tickets button directory](assets/screenshots/tickets-button-link.png)
 #### Social links directory
 ![Social links directory](assets/screenshots/social-links-directory.png)
-
-#### Both the HTML and CSS have succesfully passed the validator
 
 ### Browsers
 1. The audio player looks different on each browser as each one has a different preset layout

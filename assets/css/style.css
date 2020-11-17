@@ -82,7 +82,6 @@ nav li {
 .btn--red {
     color:#fafafa;
     background-color:#c93e4c;
-    border-color:#c93e4c;
 }
 
 .media-image .btn {
@@ -94,6 +93,7 @@ nav li {
 nav a:hover {
     color:#c93e4c;
     border-bottom: 1px solid #c93e4c;
+    border-color:#c93e4c;
 }
 
 nav a.title:hover {
@@ -131,9 +131,6 @@ nav a.title:hover {
     height:500px;
     background: url("../../assets/images/le-nuvole.jpg") no-repeat top;
     background-size:cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     margin-top:76px;
 
     animation-name:hero-zoom;
@@ -145,9 +142,6 @@ nav a.title:hover {
     height:500px;
     background: url("../../assets/images/le-nuvole14.jpg") no-repeat top;
     background-size:cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     margin-top:76px;
     position:relative;
 }
@@ -261,6 +255,9 @@ nav a.title:hover {
     vertical-align: middle;
 }
 
+.no-display {
+    display:none;
+}
 /*........................................social media section*/
 
 .social-links-section {
