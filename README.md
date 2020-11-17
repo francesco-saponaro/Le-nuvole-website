@@ -7,12 +7,13 @@ Due to their style of music and their repertoire, this website is meant to attra
 
 ### User stories
 * As a first time user, I want to discover their music, so i can potentially become a new follower
-* As a first time user, I want to check for an upcoming jazz gig in the brisbane area, so I can potentially go see the band
-*As a returning user, I want to listen to their latest song or performance, so I can renew my interest for the band
+* As a first time user, I want to check for an upcoming jazz gig in the brisbane area, so I can potentially buy a ticket and go see the band
+* As a first time user, I want to check for the band's social pages, so I can potentially follow the band
+* As a returning user, I want to listen to their latest song or performance, so I can renew my interest for the band
 * As a returning user, I want to check for their next gig date, so I know when and where to go see the band
-* As a potential client, I would like to enquire about their music, story, location and availability, to decide if to book the band for my venue or party
+* As a potential client, I would like to enquire about their music, story, location, availability and stage appearance, to decide if to book the band for my venue or party
 * As a returning client, I would like to enquire about their availability, so I can book the band
-* As a couple, we would like to enquire about their music, story, personality, location and availability, to decide if to book the band for our wedding
+* As a couple, we would like to enquire about their music, story, personality, location, availability and stage appearance, to decide if to book the band for our wedding
 
 [Link to Wireframe](/workspace/gitpod-full-template/assets/wireframes/le-nuvole-wireframe.pdf)
 
@@ -53,6 +54,20 @@ Added an h2 in both.
 * CSS diplayed the "-webkit-background-size, -moz-background-size and -0-background-size is an unknown vendor extension" warning on my "hero-image", I have removed the properties
 * CSS has successfully passed the validator
 ### Manual testing
+| User story | User journey |
+| ---------- | ------------ |
+| As a first time user, I want to discover their music | In the home page I click on the [latest performance video](#latest-performance-video-and-bio) |
+| As a first time user, I want to discover their music | I click on the [media page](#media-page) link and play either the [embedded videos](#embedded-videos) or play the [audio player](#audio-player) |
+| As a first time user, I want to check for an upcoming jazz gig in the brisbane area | In the Home page I scroll down to the [upcoming dates table](#upcoming-dates-table-and-tickets) and click on the [tickets button](#upcoming-dates-table-and-tickets) button if I want |
+| As a first time user, I want to check for the band's social pages | In the Home page I scroll down to the [social links section](#social-links-section) and click on the desired platform icon, in other pages I can find social links in the footer section
+| As a returning user, I want to listen to their latest song or performance | In the home page I click on the [latest performance video](#latest-performance-video-and-bio) |
+| As a returning user, I want to check for their next gig date | In the Home page I scroll down to the [upcoming dates table](#upcoming-dates-table-and-tickets) |
+| As a potential client, I would like to enquire about their music and story | In the home page I can read the band's [bio](#latest-performance-video-and-bio) and directly beside it, play the [latest performance video](#latest-performance-video-and-bio) |
+| As a potential client, I would like to enquire about their location and availability | In the home page I can read the band's location in the [bio](#latest-performance-video-and-bio) and in the navigation bar [book us](#book-us-and-modal) button modal, I can enquire about availability through the [modal](#book-us-and-modal) form or by [email, call or text](#email-call-text)|
+| As a potential client, I would like to enquire about the band's physical and stage appearance | I click on the [gallery page](#gallery-page) link and see a selection of the band's pic, I can also click on them for full scale resolution |
+| As a returning client, I would like to enquire about their availability | I can enquire about availability through the [modal](#book-us-and-modal) form by clicking the [book us](#book-us-and-modal) button or link available in all screen sizes |
+
+
 1. Navigation bar
     1. When I click on the navigation bar title I am redirected to the home page
     2. When I click on the "home" navigation bar link I am redirected to the home page
@@ -85,24 +100,24 @@ Added an h2 in both.
 ### Testing screenshots:
 #### Main page
 ![Main page](assets/screenshots/main-page.png)
-#### Main video playing
-![Main video playing ](assets/screenshots/main-video-playing.png)
-#### Media page
+#### <h4 id="latest-performance-video-and-bio">Latest performance video and bio</h4>
+![Latest performance video and bio](assets/screenshots/main-video-playing.png)
+#### <h4 id="media-page">Media page</h4>
 ![Media page](assets/screenshots/media-page.png)
-#### Media videos playing
-![Media videos playing](assets/screenshots/media-videos-playing.png)
-#### Media audio playing
-![Media audio playing](assets/screenshots/media-audio-playing.png)
-#### Gallery page
+#### <h4 id="embedded-videos">Embedded videos in media page</h4>
+![Embedded videos in media page](assets/screenshots/media-videos-playing.png)
+#### <h4 id="audio-player">Audio player</h4>
+![Audio player](assets/screenshots/media-audio-playing.png)
+#### <h4 id="gallery-page">Gallery page</h4>
 ![Gallery page](assets/screenshots/gallery-page.png)
-#### Modal
-![Modal](assets/screenshots/modal.png)
+#### <h4 id="book-us-and-modal">Book us button and modal</h4>
+![Book us button and modal](assets/screenshots/modal.png)
 #### Modal required fields
 ![Modal required fields](assets/screenshots/modal-required-field.png)
-#### Modal tel link
-![Modal tel link](assets/screenshots/modal-tel-link.png)
-#### Tickets button
-![Tickets button](assets/screenshots/tickets-button.png)
+#### <h4 id="email-call-text">Email and tel links</h4>
+![Email and tel links](assets/screenshots/modal-tel-link.png)
+#### <h4 id="upcoming-dates-table-and-tickets">Upcoming dates table and tickets button</h4>
+![Upcoming dates table and tickets button](assets/screenshots/tickets-button.png)
 #### Tickets button directory
 ![Tickets button directory](assets/screenshots/tickets-button-link.png)
 #### Social links directory
