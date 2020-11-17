@@ -29,6 +29,7 @@ nav a {
      color:#c93e4c;
 }
 
+
 nav li {
     margin-right:10px;
 }
@@ -49,6 +50,7 @@ nav li {
 .active a {
     border-bottom: 1px solid #c93e4c;
 }
+
 
 .navbar i {
     color:#c93e4c;
@@ -384,6 +386,36 @@ footer {
         margin-left:25px;
         margin-right:25px;
         color:#fafafa;
+    }
+}
+
+@media screen and (max-width:576px) {
+    nav li {
+        width:20%;
+    }
+}
+
+@media screen and (max-width:527px) {
+    nav li {
+        width:22%;
+    }
+}
+
+@media screen and (max-width:414px) {
+    nav li {
+        width:29%;
+    }
+}
+
+@media screen and (max-width:360px) {
+    nav li {
+        width:32%;
+    }
+}
+
+@media screen and (max-width:330px) {
+    nav li {
+        width:35%;
     }
 }
 
