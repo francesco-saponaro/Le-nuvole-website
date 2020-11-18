@@ -1,9 +1,8 @@
 # Le Nuvole
-Le nuvole is a product of two people falling in love, which with along their passion for music, different heritage and background gives birth to their unique sound. 
-
+Le nuvole is a product of two people falling in love, which with along their passion for music, different heritage and background gives birth to their unique sound.  
 The purpose of this website is to expand their brand awareness, increase online presence and monetize their project. 
 ## UX
-Due to their style of music and their repertoire, this website is meant to attract a mid-twenties to upwards demographic with a love for fine music, interested in either a night out or in booking a band for their bar, party or wedding
+Due to their style of music and their repertoire, this website is meant to attract a mid-twenties to upwards demographic with a love for fine music. Interested in Jazz, Gypsy jazz or Classical music, a night out or in booking a band for their bar, party or wedding.
 
 ### User stories
 * As a first time user, I want to discover their music, so i can potentially become a new follower
@@ -48,10 +47,10 @@ Due to their style of music and their repertoire, this website is meant to attra
 ## Testing
 ### HTML validator
 * The validator displayed the "section lacks heading" warning in the "Home" and "Media" page. 
-Added an h2 in both. 
+Added a h2 in both with a {display:none} declaration. 
 * All 3 HTML pages have successfully passed the validator
 ### CSS validator
-* CSS diplayed the "-webkit-background-size, -moz-background-size and -0-background-size is an unknown vendor extension" warning on my "hero-image", I have removed the properties
+* CSS diplayed the "-webkit-background-size, -moz-background-size and -0-background-size is an unknown vendor extension" warning on my "hero-image". I have removed the properties
 * CSS has successfully passed the validator
 ### Manual testing
 | User story | User journey |
@@ -59,12 +58,12 @@ Added an h2 in both.
 | As a first time user, I want to discover their music | In the home page I click on the [latest performance video](#latest-performance-video-and-bio) |
 | As a first time user, I want to discover their music | I click on the [media page](#media-page) link and play either the [embedded videos](#embedded-videos) or play the [audio player](#audio-player) |
 | As a first time user, I want to check for an upcoming jazz gig in the brisbane area | In the Home page I scroll down to the [upcoming dates table](#upcoming-dates-table-and-tickets) and click on the [tickets button](#upcoming-dates-table-and-tickets) button if I want |
-| As a first time user, I want to check for the band's social pages | In the home page I scroll down to the [social links section](#social-links-section) and click on the desired platform icon, in other pages I can find social links in the footer section
+| As a first time user, I want to check for the band's social pages | In the home page I scroll down to the [social links section](#social-links-section) and click on the desired platform icon. In other pages I can find social links in the footer section
 | As a returning user, I want to listen to their latest song or performance | In the home page I click on the [latest performance video](#latest-performance-video-and-bio) |
 | As a returning user, I want to check for their next gig date | In the home page I scroll down to the [upcoming dates table](#upcoming-dates-table-and-tickets) |
-| As a potential client, I would like to enquire about their music and story | In the home page I can read the band's [bio](#latest-performance-video-and-bio) and directly beside it, play the [latest performance video](#latest-performance-video-and-bio) |
-| As a potential client, I would like to enquire about their location and availability | In the home page I can read the band's location in the [bio](#latest-performance-video-and-bio) and in the navigation bar [book us](#book-us-and-modal) button modal, I can enquire about availability through the [modal](#book-us-and-modal) form or by [email, call or text](#email-call-text)|
-| As a potential client, I would like to enquire about the band's physical and stage appearance | I click on the [gallery page](#gallery-page) link and see a selection of the band's pic, I can also click on them for full scale resolution |
+| As a potential client, I would like to enquire about their music and story | In the home page I can read the band's [bio](#latest-performance-video-and-bio) and, directly beside it, play the [latest performance video](#latest-performance-video-and-bio) |
+| As a potential client, I would like to enquire about their location and availability | In the home page I can read the band's location in the [bio](#latest-performance-video-and-bio) and in the navigation bar [book us](#book-us-and-modal) button modal. I can enquire about availability through the [modal](#book-us-and-modal) form or by [email, call or text](#email-call-text)|
+| As a potential client, I would like to enquire about the band's physical and stage appearance | I click on the [gallery page](#gallery-page) link and see a selection of the band's pic. I can also click on them for full scale resolution |
 | As a returning client, I would like to enquire about their availability | I can enquire about availability through the [modal](#book-us-and-modal) form by clicking the [book us](#book-us-and-modal) button or link available in all screen sizes |
 
 
@@ -139,24 +138,14 @@ Added an h2 in both.
 
 ## Deployment
 ### Issues
-* I wrongly created the repository from the Code-institute-Org github account, the issues was rather than clicking the "use this template" button, I have pressed the green "gitpod" button.<br>
-Unfortunately I have realised very late in the project as everytime I committed I forgot to push, until almost at the end of the project.<br>
+* I wrongly created the repository from the Code-institute-Org GitHub account, the issues was rather than clicking the "use this template" button, I have pressed the green "gitpod" button.  
+Unfortunately I have realised very late in the project as everytime I committed I forgot to push, until almost at the end of the project.  
 Luckily tutor support was able to help me and transferred my repository files into my account's repository, so I wouldn't lose all of my commits. I must thank the tutor support team for helping me transfer my file, it has definitely been a good learning lesson!
 * I have been made aware by my tutor that my commits are not optimal, wording is not ideal. He has sent me a learning article which has been very helpful to fixing my remaining commits
 ### Process
-
-
-
-
-
-
-
-
-
-
-
-
-
+* From my GitHub account, I clicked on my repositories, my repository's file settings, scrolled down to GitHub Pages, changed the branch to master and clicked on save
+* There are no differences between my development version and deployed version
+* If I want to run my code locally I can enter the "python3 -m http.server" and click on the "port 8000" tab
 
 ## Credits
 ### Content
