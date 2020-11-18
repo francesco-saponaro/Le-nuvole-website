@@ -59,9 +59,9 @@ Added an h2 in both.
 | As a first time user, I want to discover their music | In the home page I click on the [latest performance video](#latest-performance-video-and-bio) |
 | As a first time user, I want to discover their music | I click on the [media page](#media-page) link and play either the [embedded videos](#embedded-videos) or play the [audio player](#audio-player) |
 | As a first time user, I want to check for an upcoming jazz gig in the brisbane area | In the Home page I scroll down to the [upcoming dates table](#upcoming-dates-table-and-tickets) and click on the [tickets button](#upcoming-dates-table-and-tickets) button if I want |
-| As a first time user, I want to check for the band's social pages | In the Home page I scroll down to the [social links section](#social-links-section) and click on the desired platform icon, in other pages I can find social links in the footer section
+| As a first time user, I want to check for the band's social pages | In the home page I scroll down to the [social links section](#social-links-section) and click on the desired platform icon, in other pages I can find social links in the footer section
 | As a returning user, I want to listen to their latest song or performance | In the home page I click on the [latest performance video](#latest-performance-video-and-bio) |
-| As a returning user, I want to check for their next gig date | In the Home page I scroll down to the [upcoming dates table](#upcoming-dates-table-and-tickets) |
+| As a returning user, I want to check for their next gig date | In the home page I scroll down to the [upcoming dates table](#upcoming-dates-table-and-tickets) |
 | As a potential client, I would like to enquire about their music and story | In the home page I can read the band's [bio](#latest-performance-video-and-bio) and directly beside it, play the [latest performance video](#latest-performance-video-and-bio) |
 | As a potential client, I would like to enquire about their location and availability | In the home page I can read the band's location in the [bio](#latest-performance-video-and-bio) and in the navigation bar [book us](#book-us-and-modal) button modal, I can enquire about availability through the [modal](#book-us-and-modal) form or by [email, call or text](#email-call-text)|
 | As a potential client, I would like to enquire about the band's physical and stage appearance | I click on the [gallery page](#gallery-page) link and see a selection of the band's pic, I can also click on them for full scale resolution |
@@ -118,6 +118,8 @@ Added an h2 in both.
 ![Email and tel links](assets/screenshots/modal-tel-link.png)
 #### <h4 id="upcoming-dates-table-and-tickets">Upcoming dates table and tickets button</h4>
 ![Upcoming dates table and tickets button](assets/screenshots/tickets-button.png)
+#### <h4 id="social-links-section">Social links section</h4>
+![Social links section](assets/screenshots/social-links-section.png)
 #### Tickets button directory
 ![Tickets button directory](assets/screenshots/tickets-button-link.png)
 #### Social links directory
@@ -136,6 +138,14 @@ Added an h2 in both.
 
 
 ## Deployment
+### Issues
+* I wrongly created the repository from the Code-institute-Org github account, the issues was rather than clicking the "use this template" button, I have pressed the green "gitpod" button.<br>
+Unfortunately I have realised very late in the project as everytime I committed I forgot to push, until almost at the end of the project.<br>
+Luckily tutor support was able to help me and transferred my repository files into my account's repository, so I wouldn't lose all of my commits. I must thank the tutor support team for helping me transfer my file, it has definitely been a good learning lesson!
+* I have been made aware by my tutor that my commits are not optimal, wording is not ideal. He has sent me a learning article which has been very helpful to fixing my remaining commits
+### Process
+
+
 
 
 
