@@ -14,7 +14,7 @@ Due to their style of music and their repertoire, this website is meant to attra
 * As a returning client, I would like to enquire about their availability, so I can book the band
 * As a couple, we would like to enquire about their music, story, personality, location, availability and stage appearance, to decide if to book the band for our wedding
 
-[Link to Wireframe](/workspace/gitpod-full-template/assets/wireframes/le-nuvole-wireframe.pdf)
+[Link to Wireframe](/assets/wireframes/le-nuvole-wireframe.pdf)
 
 ## Features
 ### Existing features
